@@ -5,6 +5,8 @@
 * [About me](about-me.md)
 * [Content](content.md)
 * [Part I - Feature Engineering](part-i/README.md)
+  * [Feature Engineering tasks:](part-i/feature-engineering-tasks.md)
+  * [Approaches to Feature Engineering](part-i/approaches-to-feature-engineering.md)
   * [Example](part-i/example.md)
   * [Some Important concepts](part-i/some-important-concepts.md)
   * [Outline of the book](part-i/outline-of-the-book.md)
