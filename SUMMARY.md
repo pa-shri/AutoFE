@@ -2,7 +2,7 @@
 
 * [Automated Feature Engineering \| AutoFE](README.md)
 * [Preface](preface.md)
-* [About me](about-me.md)
+* [About](about-me.md)
 * [Content](content.md)
 * [Part I - Feature Engineering](part-i/README.md)
   * [Feature Engineering tasks:](part-i/feature-engineering-tasks.md)
@@ -18,6 +18,7 @@
   * [Non-linear expansions:](part-ii/non-linear-expansions.md)
   * [Feature discretization:](part-ii/feature-discretization.md)
   * [Signal enhancement:](part-ii/signal-enhancement.md)
+  * [Syntactic feature construction](part-ii/syntactic-feature-construction.md)
 * [Part III - Feature Selection](part-iii.md)
 * [Part IV - Automated Feature Engineering](part-iv/README.md)
   * [1. FeatureTools](part-iv/1.-featuretools/README.md)

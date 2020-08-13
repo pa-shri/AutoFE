@@ -13,6 +13,6 @@ This can be done using formula:
 
 ![](https://lh3.googleusercontent.com/A_SCMUynyIJHrNjxjd4k4zEK_UIOcqKobe9blXumH1RSp6kEpxy5SZpLmft0Fhzu441UERNKmX5AXDvDjZ2v02m8cTarJhtQoIsdwGAtLXsT7nyhTTLWIwc2rOFXs4GR3HlFoaCw)
 
-The downside is, smaller standard deviation resulting in suppressed effect of outliers.  
+The downside is of this method is smaller standard deviation resulting in the suppressed effect of outliers.  
 
 

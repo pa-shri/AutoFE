@@ -1,12 +1,22 @@
 # Content
 
-Part I
+Part I - Feature Engineering
 
-1. What is Feature Engineering
+1. Feature Engineering tasks
+2. Approaches to feature engineering
+3. Example
+4. Some Important concepts
+5. Outline of the book
 
 Part II - Feature Extraction
 
-
+1. Standardization
+2. Normalization
+3. Extraction of local features
+4. Linear and non-linear space embedding methods
+5. Non-linear expansions
+6. Feature discretization
+7. Signal enhancement
 
 Part III - Feature Selection
 
