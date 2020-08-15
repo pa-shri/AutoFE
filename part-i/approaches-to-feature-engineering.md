@@ -2,8 +2,9 @@
 
 From a broader perspective, there are 2 common approaches to perform Feature Engineering:
 
-1. **Generate an exhaustively large feature pool and then perform feature selection.**
-2. **Iteratively expand the original feature set by evaluating whether the inclusion of new features improves the prediction accuracy of the model.** 
+#### **1. Generate an exhaustively large feature pool and then perform feature selection.**
+
+#### **2. Iteratively expand the original feature set by evaluating whether the inclusion of new features improves the prediction accuracy of the model.** 
 
 Both these approaches have their own drawbacks: 
 
@@ -17,13 +18,13 @@ With the second approach, important features might get missed if some variables 
  Fig1: Feature engineering approaches  
 
 
-Even though, most of the feature construction frameworks follow one of the two approaches discussed above. Some frameworks might also use more complex approaches \(like Cognito which is discussed later \). The recent trend is to use meta-learning i.e, algorithms trained on other datasets to decide whether to apply a specific transformation to a feature or not.
+Even though, most of the feature construction frameworks follow one of the two approaches discussed above. Some frameworks might also use more complex approaches \(like Cognito which is discussed later \). The recent trend is to use 'meta-learning' based approach to decide whether to apply a specific transformation to a feature or not as discussed below.
 
 
 
-**Learning Feature Engineering\(LFE\) for Classification:**
+#### **3. Learning Feature Engineering\(LFE\) for Classification:**
 
-As we already saw, the above two approaches incur high computational costs in runtime and/or memory. 'Learning Feature Engineering for classification' presents a new novel meta-learning based approach for automating feature engineering in classification tasks.
+As we already saw, the above two approaches incur high computational costs in runtime and/or memory. ['Learning Feature Engineering for classification'](https://pdfs.semanticscholar.org/055e/01a02c9c50cf3473126e92e352f17b71fb9b.pdf?_ga=2.7542706.1893297219.1597518077-79882967.1592103436) presents a new novel meta-learning based approach for automating feature engineering in classification tasks.
 
 LFE is based on learning the effective transformations\(like arithmetic or aggregation operators\) on numerical features from past feature engineering experiences. Given a dataset, LFE recommends a set of useful features without relying on model evaluation or explicit feature expansion and selection. 
 

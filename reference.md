@@ -25,3 +25,7 @@
 **\[8\] Aaron Meurer, Christopher P Smith, Mateusz Paprocki, Ondřej Čertík, Sergey B Kir- pichev, Matthew Rocklin, AMiT Kumar, Sergiu Ivanov, Jason K Moore, Sartaj Singh, et al. Sympy: symbolic computing in python. PeerJ Computer Science, 3:e103, 2017. \[9\] Edgar Buckingham. On physically similar systems; illustrations of the use of dimen- sional equations. Physical review, 4\(4\):345, 1914.  
 \[10\]**[**https://online.stat.psu.edu/stat508/lesson/10/10.3**](https://online.stat.psu.edu/stat508/lesson/10/10.3)
 
+R. Kohavi and G. John. Wrappers for feature subset selection. Artificial Intelligence, 97\(1-2\):273–324, 1996.
+
+1. Bellman R.E. Adaptive Control Processes. Princeton University Press, Princeton, NJ, 1961.
+

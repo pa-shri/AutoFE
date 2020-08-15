@@ -1,6 +1,6 @@
 # Part II - Feature Extraction
 
-Good data representation is often required to improve the prediction accuracy of a predictor. Raw data is converted to a set of useful features by various feature transformation methods. In some approaches, feature construction is integrated into the modelling process. For example, the 'hidden units' of artificial neural networks compute internal representations analogous to constructed features. In other approaches, feature construction is part of preprocessing.
+Good data representation is often required to improve the prediction accuracy of a predictor. Raw data is converted to a set of useful features by various feature transformation methods. In some approaches, feature construction is integrated into the modeling process. For example, the 'hidden units' of artificial neural networks compute internal representations analogous to constructed features. In other approaches, feature construction is part of preprocessing.
 
 We can describe feature construction as,
 
