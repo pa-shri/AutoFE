@@ -17,6 +17,8 @@ With the second approach, important features might get missed if some variables 
  Fig1: Feature engineering approaches  
 
 
-Even though, most of the feature construction frameworks follow one of the two approaches discussed above. Some frameworks might also use more complex approaches \(like Cognito which is discussed later \). The recent trend is to use meta-learning i.e, algorithms trained on other datasets to decide whether to apply a specific transformation to a feature or not.  
+Even though, most of the feature construction frameworks follow one of the two approaches discussed above. Some frameworks might also use more complex approaches \(like Cognito which is discussed later \). The recent trend is to use meta-learning i.e, algorithms trained on other datasets to decide whether to apply a specific transformation to a feature or not.
+
+\#Add LFE approach by IBM team  
 
 
