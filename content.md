@@ -1,6 +1,6 @@
 # Content
 
-Part I - Feature Engineering
+[Part I - Feature Engineering](https://app.gitbook.com/@patil-shru/s/automated-feature-engineering-autofe/~/drafts/-MEnA6_sigphdH4YZjzW/part-i)
 
 1. Feature Engineering tasks
 2. Approaches to feature engineering
