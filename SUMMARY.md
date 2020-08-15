@@ -2,7 +2,6 @@
 
 * [Automated Feature Engineering \| AutoFE](README.md)
 * [Preface](preface.md)
-* [About](about-me.md)
 * [Content](content.md)
 * [Part I - Feature Engineering](part-i/README.md)
   * [Feature Engineering tasks:](part-i/feature-engineering-tasks.md)
