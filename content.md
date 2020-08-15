@@ -1,33 +1,49 @@
 # Content
 
-[Part I - Feature Engineering](https://app.gitbook.com/@patil-shru/s/automated-feature-engineering-autofe/~/drafts/-MEnA6_sigphdH4YZjzW/part-i)
+[Part I - Feature Engineering](part-i/)
 
-1. Feature Engineering tasks
-2. Approaches to feature engineering
-3. Example
-4. Some Important concepts
-5. Outline of the book
+* [Feature Engineering tasks](part-i/feature-engineering-tasks.md)
+* [Approaches to feature engineering](part-i/approaches-to-feature-engineering.md)
+* [Example](part-i/example.md)
+* [Some Important concepts](part-i/some-important-concepts.md)
+* [Outline of the book](part-i/outline-of-the-book.md)
 
-Part II - Feature Extraction
+[Part II - Feature Extraction](part-ii/)
 
-1. Standardization
-2. Normalization
-3. Extraction of local features
-4. Linear and non-linear space embedding methods
-5. Non-linear expansions
-6. Feature discretization
-7. Signal enhancement
+* [Standardization](part-ii/standardization-or-z-score-normalization.md)
+* [Normalization](part-ii/normalization-or-min-max-scaling.md)
+* [Extraction of local features](part-ii/extraction-of-local-features.md)
+* [Linear and non-linear space embedding methods](part-ii/linear-and-non-linear-space-embedding-methods.md)
+* [Non-linear expansions](part-ii/non-linear-expansions.md)
+* [Feature discretization](part-ii/feature-discretization.md)
+* [Signal enhancement](part-ii/signal-enhancement.md)
+* [Syntactic feature construction](part-ii/syntactic-feature-construction.md)
+* [log transforms](part-ii/syntactic-feature-construction.md)
 
-Part III - Feature Selection
+[Part III - Feature Selection](part-iii/)
 
-Part IV - Automated Feature Engineering
+[Part IV - Automated Feature Engineering](part-iv/)
 
-1. FeatureTools
-2. AutoFeat
-3. TsFresh
-4. ExploreKit
-5. Cognito
-6. AutoLearn
+* [FeatureTools](part-iv/1.-featuretools/)
+  * [Deep Feature Synthesis\(DFS\)](part-iv/1.-featuretools/deep-feature-synthesis-dfs.md)
+  * [Implementation of FeatureTools for FE:](part-iv/1.-featuretools/implementation-of-featuretools-for-fe.md)
+* [AutoFeat](part-iv/2.-autofeat/)
+  * [Feature Construction](part-iv/2.-autofeat/feature-construction.md)
+  * [Feature Selection](part-iv/2.-autofeat/feature-selection.md)
+* [TsFresh](part-iv/3.-tsfresh/)
+  * [TsFresh process overview](part-iv/3.-tsfresh/tsfresh-process-overview.md)
+  * [Implementation of TsFresh for FE](part-iv/3.-tsfresh/implementation-of-tsfresh-for-fe.md)
+  * [Submodules](part-iv/3.-tsfresh/submodules.md)
+* [ExploreKit](part-iv/4.-explorekit/)
+  * [Feature generation](part-iv/4.-explorekit/feature-generation.md)
+  * [Ranking Candidate Features](part-iv/4.-explorekit/ranking-candidate-features.md)
+  * [Training Ranking Classifier](part-iv/4.-explorekit/training-ranking-classifier.md)
+  * [Candidate Feature Evaluation and Selection](part-iv/4.-explorekit/candidate-feature-evaluation-and-selection.md)
+* [Cognito](part-iv/5.-cognito.md)
+
+
+
+
 
 
 

@@ -2,9 +2,9 @@
 
 Feature engineering is an important and oftentimes the most undervalued part of a machine learning pipeline. Most data scientists spend more than 80% of their time doing feature engineering. In the words of Andrew Ng:
 
-_"Coming up with features is a difficult, time-consuming, requires expert knowledge. ' Applied Machine Learning' is basically Feature Engineering"_
+_**"Coming up with features is a difficult, time-consuming, requires expert knowledge. ' Applied Machine Learning' is basically Feature Engineering"**_
 
-As a result, there were lots of efforts taken to automate this time-intensive, domain-dependent and repetitive but skillful process since 1990s. Beginning with the basic concepts of feature engineering, this book aims to build a foundation for better understanding and implementation of automated feature engineering \(or AutoFE in short\).
+There are a lot of efforts being taken to automate this time-intensive, domain-dependent but skillful process since the 1990s. Beginning with the basic concepts of feature engineering, this book aims to build a foundation for better understanding and implementation of automated feature engineering \(or AutoFE in short\).
 
 I have tried my best to add all the necessary resources to better understand the contents of this book. This book is recommended for students, machine learning practitioners, data scientists and anyone interested in learning more about feature engineering.
 
