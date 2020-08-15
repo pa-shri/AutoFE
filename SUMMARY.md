@@ -43,6 +43,5 @@
     * [Training Ranking Classifier:](part-iv/4.-explorekit/training-ranking-classifier.md)
     * [Candidate Feature Evaluation and Selection:](part-iv/4.-explorekit/candidate-feature-evaluation-and-selection.md)
   * [5. Cognito](part-iv/5.-cognito.md)
-  * [6. AutoLearn](part-iv/6.-autolearn.md)
 * [Reference](reference.md)
 
