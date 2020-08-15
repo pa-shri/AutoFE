@@ -17,8 +17,8 @@
 * [Non-linear expansions](part-ii/non-linear-expansions.md)
 * [Feature discretization](part-ii/feature-discretization.md)
 * [Signal enhancement](part-ii/signal-enhancement.md)
-* [Syntactic feature construction](part-ii/syntactic-feature-construction.md)
-* [log transforms](part-ii/syntactic-feature-construction.md)
+* [Syntactic feature construction]()
+* [log transforms]()
 
 [Part III - Feature Selection](part-iii/)
 
