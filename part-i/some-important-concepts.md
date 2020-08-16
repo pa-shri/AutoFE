@@ -30,15 +30,15 @@ A feature is relevant if it contains some information about the target. [Kohavi 
 
 Poor generalization of a model accompanied by high accuracy on the train**i**ng data is called overfitting and is often caused by too much complexity of the model \(too many adaptive parameters\). The danger of overfitting is to find features that “explain well” the training data but have no real relevance or no predictive power. 
 
-![Fig : Overfitiing of data](../.gitbook/assets/image%20%286%29.png)
+
+
+![](../.gitbook/assets/screen-shot-2020-08-15-at-9.52.10-pm.png)
 
 In the above image, the green line represents an overfitted model and the black line represents a regularized model. While the green line best follows the training data, it is too dependent on that data and it is likely to have a higher error rate on new unseen data, compared to the black line.
 
-\*\*\*\*
-
 ### 4. Curse of **D**imensionality: 
 
-The curse of dimensionality, first introduced by Bellman \[[1](https://books.google.com/books?hl=en&lr=&id=iwbWCgAAQBAJ&oi=fnd&pg=PR9&ots=bDKcWkI84i&sig=5vw6p1z3z0fWrFgihVtnPwZeeII#v=onepage&q&f=false)\], indicates that the number of samples needed to estimate an arbitrary function with a given level of accuracy grows exponentially with respect to the number of input variables \(i.e., dimensionality\) of the function.
+The curse of dimensionality, first introduced by Bellman, indicates that the number of samples needed to estimate an arbitrary function with a given level of accuracy grows exponentially with respect to the number of input variables \(i.e., dimensionality\) of the function.
 
 Let’s take an example below. Fig.\(a\) shows 10 data points in one dimension i.e. there is only one feature in the data set. It can be easily represented on a line with only 10 values, x=1, 2, 3... 10.
 

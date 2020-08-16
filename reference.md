@@ -8,26 +8,28 @@
 
 [https://medium.com/@rrfd/simple-automatic-feature-engineering-using-featuretools-in-python-for-classification-b1308040e183](https://medium.com/@rrfd/simple-automatic-feature-engineering-using-featuretools-in-python-for-classification-b1308040e183)
 
-**\[1\] Feature Extraction Book\_2006 \(Chapter 1\)**
+\[1\] Feature Extraction Book\_2006 \(Chapter 1\)
 
-**\[2\]** [**https://docs.featuretools.com/en/stable/**](https://docs.featuretools.com/en/stable/)
+\[2\] [https://docs.featuretools.com/en/stable/](https://docs.featuretools.com/en/stable/)
 
-**\[3\]** [**https://towardsdatascience.com/automated-feature-engineering-in-python-99baf11cc219**](https://towardsdatascience.com/automated-feature-engineering-in-python-99baf11cc219)
+\[3\] [https://towardsdatascience.com/automated-feature-engineering-in-python-99baf11cc219](https://towardsdatascience.com/automated-feature-engineering-in-python-99baf11cc219)
 
 {% embed url="https://towardsdatascience.com/chi-square-test-for-feature-selection-in-machine-learning-206b1f0b8223\#:~:text=A%20chi%2Dsquare%20test%20is,O%20and%20expected%20count%20E.&text=So%20high%20Chi%2DSquare%20value,hypothesis%20of%20independence%20is%20incorrect." %}
 
-\*\*\*\*[**https://rapidminer.com/blog/multi-objective-feature-selection-part-1/**](https://rapidminer.com/blog/multi-objective-feature-selection-part-1/)\*\*\*\*
+[https://rapidminer.com/blog/multi-objective-feature-selection-part-1/](https://rapidminer.com/blog/multi-objective-feature-selection-part-1/)
 
-**\[4\] J. M. Kanter and K. Veeramachaneni, "Deep feature synthesis: Towards automating data science endeavors," 2015 IEEE International Conference on Data Science and Advanced Analytics \(DSAA\), Paris, 2015, pp. 1-10, doi: 10.1109/DSAA.2015.7344858.**
+\[4\] J. M. Kanter and K. Veeramachaneni, "Deep feature synthesis: Towards automating data science endeavors," 2015 IEEE International Conference on Data Science and Advanced Analytics \(DSAA\), Paris, 2015, pp. 1-10, doi: 10.1109/DSAA.2015.7344858.
 
-**\[5\] Christ, M., Braun, N., Neuffer, J. and Kempa-Liehr, A. W. \(2018\), ‘Time Series FeatuRe Extraction on basis of Scalable Hypothesis tests \(tsfresh a Python package\)’, Neurocomputing 307, 72 – 77.**
+\[5\] Christ, M., Braun, N., Neuffer, J. and Kempa-Liehr, A. W. \(2018\), ‘Time Series FeatuRe Extraction on basis of Scalable Hypothesis tests \(tsfresh a Python package\)’, Neurocomputing 307, 72 – 77.
 
-**\[6\] Christ, M., Kempa-Liehr, A.W., & Feindt, M. \(2016\). Distributed and parallel time series feature extraction for industrial big data applications. ArXiv, abs/1610.07717.**
+\[6\] Christ, M., Kempa-Liehr, A.W., & Feindt, M. \(2016\). Distributed and parallel time series feature extraction for industrial big data applications. ArXiv, abs/1610.07717.
 
-**\[7\] Horn, F., Pack, R., & Rieger, M. \(2019\). The autofeat Python Library for Automatic Feature Engineering and Selection. ArXiv, abs/1901.07329.**
+\[7\] Horn, F., Pack, R., & Rieger, M. \(2019\). The autofeat Python Library for Automatic Feature Engineering and Selection. ArXiv, abs/1901.07329.
 
-**\[8\] Aaron Meurer, Christopher P Smith, Mateusz Paprocki, Ondřej Čertík, Sergey B Kir- pichev, Matthew Rocklin, AMiT Kumar, Sergiu Ivanov, Jason K Moore, Sartaj Singh, et al. Sympy: symbolic computing in python. PeerJ Computer Science, 3:e103, 2017. \[9\] Edgar Buckingham. On physically similar systems; illustrations of the use of dimen- sional equations. Physical review, 4\(4\):345, 1914.  
-\[10\]**[**https://online.stat.psu.edu/stat508/lesson/10/10.3**](https://online.stat.psu.edu/stat508/lesson/10/10.3)
+\[8\] Aaron Meurer, Christopher P Smith, Mateusz Paprocki, Ondřej Čertík, Sergey B Kir- pichev, Matthew Rocklin, AMiT Kumar, Sergiu Ivanov, Jason K Moore, Sartaj Singh, et al. Sympy: symbolic computing in python. PeerJ Computer Science, 3:e103, 2017. \[9\] Edgar Buckingham. On physically similar systems; illustrations of the use of dimen- sional equations. Physical review, 4\(4\):345, 1914.  
+\[10\][https://online.stat.psu.edu/stat508/lesson/10/10.3](https://online.stat.psu.edu/stat508/lesson/10/10.3)
+
+[Stephanie Glen](https://www.statisticshowto.com/contact/). "Lasso Regression: Simple Definition" From [StatisticsHowTo.com](https://www.statisticshowto.com/)
 
 R. Kohavi and G. John. Wrappers for feature subset selection. Artificial Intelligence, 97\(1-2\):273–324, 1996.
 

@@ -12,7 +12,7 @@ At last, I would like to thank my mentor, [**Professor Nicholas Brown**](https:/
 
 
 
-**About me**: My name is [Shruti Patil](https://www.linkedin.com/in/shruti-patil-93b03798/) and I am a student at Northeastern University and a Machine Learner.
+**About me**: My name is [**Shruti Patil**](https://www.linkedin.com/in/shruti-patil-93b03798/) and I am a student at Northeastern University and a Machine Learner.
 
 **e-mail:** patil.shru@northeastern.edu
 
