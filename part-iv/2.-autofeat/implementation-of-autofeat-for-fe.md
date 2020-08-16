@@ -14,3 +14,11 @@ y_pred = model.predict(X_test)
 df_test = model.transform(X_test)
 ```
 
+
+
+**Additional Resources:**
+
+{% embed url="https://www.youtube.com/watch?v=4-4pKPv9lJ4&feature=emb\_title" %}
+
+\*\*\*\*
+

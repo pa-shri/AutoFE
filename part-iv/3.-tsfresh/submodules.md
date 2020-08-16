@@ -88,6 +88,14 @@ df, y = load_robot_execution_failures()
 X = extract_relevant_features(df, y, column_id='id', column_sort='time')
 ```
 
+
+
+**Additional Resources:**
+
+{% embed url="https://www.youtube.com/watch?v=Fm8zcOMJ-9E" %}
+
+
+
   
 
 
