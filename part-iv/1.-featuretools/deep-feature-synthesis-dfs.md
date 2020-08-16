@@ -4,7 +4,9 @@ DFS is an algorithm that generates features for relational datasets by stacking 
 
 The input to DFS is a set of interconnected entities and the tables associated with them. Notationally, for a given dataset,
 
-E: entity table with J features![](https://cdn-images-1.medium.com/max/1600/1*TaGB_B-_JxzMECSosqN5aw.png)
+E: entity table with J features
+
+![](https://cdn-images-1.medium.com/max/1600/1*TaGB_B-_JxzMECSosqN5aw.png)
 
 Now, given the entities, their corresponding data tables and relationships, the mathematical functions are applied at 2 different levels:
 

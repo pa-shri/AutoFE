@@ -47,7 +47,7 @@ In **entity\_from\_dataframe\(entity\_id,dataframe,index,time\_index,variable\_t
 
 ![](https://cdn-images-1.medium.com/max/1600/1*o6VHKYFcrupBLlOaBaVqvg.png)
 
-I believe it is a great and the easiest tool to quickly generate large amount features but like any other feature generation tool, it also leads to the ‘**curse of dimensionality**’ for which feature selection is required. Also, it cannot be used for non-relational or unstructured data.
+I believe it is a great and the easiest tool to quickly generate large amount features but like any other feature generation tool, it also leads to the [‘**curse of dimensionality**’](../../part-i/some-important-concepts.md#4-curse-of-dimensionality) for which feature selection is required. Also, it cannot be used for non-relational or unstructured data.
 
-So, at a beginner level, it is the best tool to understand feature generation easily. To perform Feature Engineering for non-relational and unstructured data, AutoFeat can be used. AutoFeat is the only general-purpose library for automatic feature generation and selection. Please refer to this link to read more about [AutoFeat](https://medium.com/@patil.shru/automated-feature-engineering-using-autofeat-c8550afb1536).
+So, at a beginner level, it is a good tool to understand feature generation easily. To perform Feature Engineering for non-relational and unstructured data, [AutoFeat](../2.-autofeat/) can be used. AutoFeat is the only general-purpose library for automatic feature generation and selection. 
 
