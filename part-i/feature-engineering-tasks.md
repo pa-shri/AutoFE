@@ -1,5 +1,5 @@
 ---
-description: introduces different tasks performed as part of feature engineering process
+description: Introduces different tasks performed as part of feature engineering process
 ---
 
 # Feature Engineering tasks
@@ -12,7 +12,7 @@ Feature transformation is all about obtaining new features from set of existing 
 
 Let's say you have a feature for income that ranges from 30,000 to 100,000. And another feature for years of employment that ranges from 0 to 50. These features have very different scales. If you want both features to have equal weighting when you compare the data samples, then you can scale the range of both features to be between 0 and 1. That way the income feature which is on a much largest scale than the years of employment feature will not dominate the compares result.
 
-![Fig1.1: Feature scaling of years of employment and income](../.gitbook/assets/screen-shot-2020-08-15-at-2.33.56-pm.png)
+![Fig1.2: Feature scaling of years of employment and income](../.gitbook/assets/screen-shot-2020-08-15-at-2.33.56-pm.png)
 
 ### **2. Feature generation:** 
 

@@ -4,9 +4,20 @@ You can find lots of examples of featuretools implementation at ‘[**featuretoo
 
 **Install featuretools:**
 
-![](https://cdn-images-1.medium.com/max/1600/1*GSE2I1N_7J-qUdymx2Em2Q.png)
+```text
+# Install featuretools
+!pip install featuretools
+```
 
-![](https://cdn-images-1.medium.com/max/1600/1*OG7NLpD_fdKqXGJDA2p0WQ.png)
+```text
+#import featuretools and other relevant libraries
+import featuretools as ft
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set()
+```
 
 **Load Mock data:**
 
@@ -15,9 +26,24 @@ customers: list of customers with unique customer\_id and other relevant attribu
 sessions: unique sessions, joined to customer entity using customer\_id  
 transactions: list of events
 
-![](https://cdn-images-1.medium.com/max/1600/1*wuFH3dZi8uhkRprcfFl6uQ.png)
+```text
+#loading mock data
+data = ft.demo.load_mock_customer()
 
+customers_df = data['customers']
+sessions_df = data['sessions']
+transactions_df = data['transactions']
+products_df = data['products']
+customers_df.head()
+```
 
+![](../../.gitbook/assets/screen-shot-2020-08-15-at-10.53.19-pm.png)
+
+```text
+sessions_df.head()
+```
+
+![](../../.gitbook/assets/screen-shot-2020-08-15-at-10.54.10-pm.png)
 
 **Running Deep Feature Synthesis:**
 
@@ -28,7 +54,42 @@ So, we need to perform 2 tasks:
 1. define a dictionary of all the entities
 2. relationship between them When 2 entities have a many-to-one relationship then one entity is called ‘parent’ and the other is called the ‘child’ entity. And the relationship is defined as:  **\(parent\_entity, parent\_variable, child\_entity, child\_variable\)**
 
-![](https://cdn-images-1.medium.com/max/1600/1*a5XeW8v93_gMF8YPOPznDw.png)
+```text
+transactions_df.head()
+```
+
+![](../../.gitbook/assets/screen-shot-2020-08-15-at-10.55.30-pm.png)
+
+```text
+products_df.head()
+```
+
+![](../../.gitbook/assets/screen-shot-2020-08-15-at-10.56.30-pm.png)
+
+```text
+#dictionary of entities:
+entities = { 'customers' : (customers_df,'customer_id'),
+             'sessions' : (sessions_df,'session_id','session_start'),
+             'transactions' : (transactions_df,'transaction_id','transaction_time'),
+             'products' : (products_df,'product_id')
+    
+}
+
+#Specify relationship between the entities. 
+relationships = [('customers','customer_id','sessions','customer_id'),
+                 ('sessions','session_id','transactions','session_id'),
+                 ('products','product_id','transactions','product_id')
+                ]
+
+#creating feature matrix for each customer
+
+feature_matrix_customers, feature_defs = ft.dfs(entities = entities, relationships = relationships, 
+                                                target_entity = 'customers')
+
+feature_matrix_customers
+```
+
+![](../../.gitbook/assets/screen-shot-2020-08-15-at-10.58.05-pm.png)
 
 Similar feature matrices can be created for other entities by changing the ‘target\_entity’ value in the ft.dfs\(\).
 
@@ -43,9 +104,51 @@ In **entity\_from\_dataframe\(entity\_id,dataframe,index,time\_index,variable\_t
 **time\_index**: tells featuretools when the data was created  
 **variable\_type**: allows user to indicate the type of column
 
-![](https://cdn-images-1.medium.com/max/1600/1*nhn_Ni2yJfTsV5hmqcBm6w.png)
+```text
+#Giving name to the EntitySet(optional). I have named this EntitySet as 'customer_data':
+es = ft.EntitySet(id = 'customer_data')
 
-![](https://cdn-images-1.medium.com/max/1600/1*o6VHKYFcrupBLlOaBaVqvg.png)
+#Adding entities to this EntitySet. We will add each dataframe as entity. 
+#Lets start with transactions dataframe.
+es = es.entity_from_dataframe(entity_id = 'transactions',
+                              dataframe = transactions_df,
+                              index = 'transaction_id',
+                              time_index = 'transaction_time')
+es           
+```
+
+![](../../.gitbook/assets/screen-shot-2020-08-15-at-11.00.05-pm.png)
+
+```text
+#add another entity
+es = es.entity_from_dataframe(entity_id = 'products',
+                              dataframe = products_df,
+                              index = 'product_id',
+                              )
+es
+```
+
+![](../../.gitbook/assets/screen-shot-2020-08-15-at-11.00.42-pm.png)
+
+```text
+#Once entities are added to the EntitySet, we can define relationship between them.
+# When specifying relationships we list the variable in the parent entity first.
+
+new_relationship = ft.Relationship(es['products']['product_id'],es['transactions']['product_id'])
+es = es.add_relationship(new_relationship)
+es
+```
+
+![](../../.gitbook/assets/screen-shot-2020-08-15-at-11.01.23-pm.png)
+
+```text
+#Creating feature matrix using EntitySet instead of seperately specifying entities and relationships:
+
+feature_matrix, feature_defs = ft.dfs(entityset=es, target_entity='products')
+feature_matrix
+```
+
+![](../../.gitbook/assets/screen-shot-2020-08-15-at-11.01.54-pm.png)
 
 I believe it is a great and the easiest tool to quickly generate large amount features but like any other feature generation tool, it also leads to the [‘**curse of dimensionality**’](../../part-i/some-important-concepts.md#4-curse-of-dimensionality) for which feature selection is required. Also, it cannot be used for non-relational or unstructured data.
 

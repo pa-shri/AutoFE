@@ -4,7 +4,7 @@
 
 Data is usually represented by a fixed number of features that can be binary, categorical or continuous. A Feature is synonymous to the attribute or variable or column in a dataset. Example of features:
 
-![Table2: Titanic voyage data](../.gitbook/assets/image%20%2810%29.png)
+![Table 1.2: Titanic voyage data](../.gitbook/assets/image%20%2810%29.png)
 
 The image above contains a snippet of data from [a public dataset](https://github.com/awesomedata/awesome-public-datasets/blob/master/Datasets/titanic.csv.zip) with information about passengers on the ill-fated Titanic maiden voyage. Each feature or column represents a measurable piece of data that can be used for analysis: Name, Age, Sex, Fare, and so on.
 
@@ -32,7 +32,7 @@ Poor generalization of a model accompanied by high accuracy on the train**i**ng 
 
 
 
-![](../.gitbook/assets/screen-shot-2020-08-15-at-9.52.10-pm.png)
+![Fig 1.4: Overfitting](../.gitbook/assets/screen-shot-2020-08-15-at-9.52.10-pm.png)
 
 In the above image, the green line represents an overfitted model and the black line represents a regularized model. While the green line best follows the training data, it is too dependent on that data and it is likely to have a higher error rate on new unseen data, compared to the black line.
 
@@ -52,7 +52,7 @@ But if we add one more feature, same data will be represented in 2 dimensions \(
    10^3 = 1000 and so on...
 ```
 
-![Fig: Curse of dimensionality](https://www.kdnuggets.com/wp-content/uploads/curse-dimensionality-2.png)
+![Fig1.5: Curse of dimensionality](https://www.kdnuggets.com/wp-content/uploads/curse-dimensionality-2.png)
 
 This exponential growth in data causes high sparsity in the data set and unnecessarily increases storage space and processing time for the particular modelling algorithm. Think of image recognition problem of high resolution images 1280 × 720 = 921,600 pixels i.e. 921600 dimensions. The value added by the additional dimension is much smaller compared to the overhead it adds to the algorithm.
 
@@ -60,7 +60,7 @@ Bottom line is, the data that can be represented using 10 space units of one tru
 
 The second issue that arises is related to sorting or classifying the data.  In low dimensional spaces, data may seem very similar but the higher the dimension the further these data points may seem to be. For instance, the two wind turbines below seem very close to each other in two dimensions but separate when viewed in a third dimension. This is the same effect the curse of dimensionality has on data.
 
-![](https://images.deepai.org/glossary-terms/curse-of-dimensionality-5166894.jpg)
+![Fig1.6](https://images.deepai.org/glossary-terms/curse-of-dimensionality-5166894.jpg)
 
 
 

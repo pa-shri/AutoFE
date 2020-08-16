@@ -15,7 +15,7 @@ The successful feature engineering process is a result of 2 components:
 * **Domain knowledge** or wisdom of 'what works' gained through years of experience 
 * **Problem-solving-drive** while navigating through a large pool of possible choices on an unknown data and unforeseen behavior. 
 
-![](../.gitbook/assets/screen-shot-2020-08-15-at-9.09.09-pm.png)
+![Fig 1.1: Feature Engineering](../.gitbook/assets/screen-shot-2020-08-15-at-9.09.09-pm.png)
 
 
 
