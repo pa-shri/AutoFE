@@ -4,7 +4,7 @@ description: Automated FE for time-series data
 
 # 3. TsFresh \(Time Series Feature Extraction on the basis of Scalable Hypothesis tests\)
 
-![](../../.gitbook/assets/screen-shot-2020-08-15-at-7.32.42-pm.png)
+![Fig4.4: TsFresh](../../.gitbook/assets/screen-shot-2020-08-15-at-7.32.42-pm.png)
 
 
 
@@ -19,7 +19,7 @@ TsFresh is based on the **FRESH** algorithm.
 It is the only python library available for this type of data. There is a Matlab package called '[hctsa\(highly comparative time-series analysis\)](https://github.com/benfulcher/hctsa)' which can be used to automatically extract features from time series. It is also possible to use hctsa from within python by means of the [pyopy](https://github.com/strawlab/pyopy) package.  
 
 
-![Fig: highlevel overview of steps in tsfresh](https://lh5.googleusercontent.com/K53sYYLxo2p0fWd8f3R6_Xe5tz_HfSeSf-Kjuql961Qjaa8P1fRqkNTS7CwDFIeswMiI918ycoWic4J-5h3iO64QBBQX_QBmbkdgRcorB8TOyeWZr65H-QLHH8JLu7rAp-_cfqWw)
+![Fig4.5: highlevel overview of steps in tsfresh](https://lh5.googleusercontent.com/K53sYYLxo2p0fWd8f3R6_Xe5tz_HfSeSf-Kjuql961Qjaa8P1fRqkNTS7CwDFIeswMiI918ycoWic4J-5h3iO64QBBQX_QBmbkdgRcorB8TOyeWZr65H-QLHH8JLu7rAp-_cfqWw)
 
 As shown in above figure TsFresh involves 3 steps:
 

@@ -18,6 +18,8 @@ df_test = model.transform(X_test)
 
 **Additional Resources:**
 
+For detailed notebooks on AutoFeat: [Github](https://github.com/pa-shri/autofeat)
+
 {% embed url="https://www.youtube.com/watch?v=4-4pKPv9lJ4&feature=emb\_title" %}
 
 \*\*\*\*

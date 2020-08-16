@@ -6,7 +6,7 @@ For instance, a pattern x = \[x1,x2\] where x1 is a width in meters and x2 is he
 
 ‌
 
-![](../.gitbook/assets/screen-shot-2020-08-15-at-4.49.51-pm.png)
+![Fig2.1: Standardization](../.gitbook/assets/screen-shot-2020-08-15-at-4.49.51-pm.png)
 
 where$$μ$$and$$σ$$are mean and standard deviation of feature _'x'_ over training examples respectively.
 

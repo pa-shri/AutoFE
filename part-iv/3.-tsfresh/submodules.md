@@ -92,7 +92,11 @@ X = extract_relevant_features(df, y, column_id='id', column_sort='time')
 
 **Additional Resources:**
 
+For more notebooks on tsfresh: [Github](https://github.com/pa-shri/tsfresh/tree/main/notebooks/examples) 
+
 {% embed url="https://www.youtube.com/watch?v=Fm8zcOMJ-9E" %}
+
+
 
 
 

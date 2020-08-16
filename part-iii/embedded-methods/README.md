@@ -1,8 +1,6 @@
 # Embedded methods
 
-![Embedded method](../../.gitbook/assets/screen-shot-2020-08-15-at-8.00.20-pm.png)
-
-
+![Fig3.3: Embedded method](../../.gitbook/assets/screen-shot-2020-08-15-at-8.00.20-pm.png)
 
 Embedded methods combine the qualities’ of filter and wrapper methods. It’s implemented by algorithms that have their own built-in feature selection methods.
 

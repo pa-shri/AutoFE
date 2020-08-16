@@ -14,7 +14,7 @@ Feature selection process can be categorized based on label information and base
 * Semi-supervised
 * Unsupervised
 
-In case of supervised learning, we have well-labelled dataset which allows effective search for discriminative and relevant features to distinguish samples from different classes. When there is only a small portion of labelled data is available, semi-supervised learning is able to take advantage of both labelled and unlabelled data. Semi-supervised algorithms mostly rely on similarity matrix and only select features that best fit this similarity matrix. Un-supervised learning is considered a much harder problem due to unavailability of guiding features.
+In case of supervised learning, we have a well-labeled dataset that allows effective search for discriminative and relevant features to distinguish samples from different classes. When there is only a small portion of labeled data is available, semi-supervised learning is able to take advantage of both labeled and unlabeled data. Semi-supervised algorithms mostly rely on similarity matrix and only select features that best fit this similarity matrix. Unsupervised learning is considered a much harder problem due to unavailability of guiding features.
 
 2. Based on the feature selection technique:
 
@@ -22,5 +22,5 @@ In case of supervised learning, we have well-labelled dataset which allows effec
 * Wrappers
 * Embedded methods
 
-Filter methods are known to select features based on their rank. They order features based on their relevance index and then select the features with the highest ranks. They do not improve the performance of the predictive model. Some of the filter based methods are correlation coefficient\(assess degree of dependence of input variables with the target variables\), statistics methods like T-test, F-test, Chi-Squared. Wrappers also use rank based approach, they select the features according to their predictive power based on their score using some learning algorithm. Embedded methods select features in the process of training. Embedded methods and wrappers may yield very different feature subsets under small perturbations of the dataset. Ensemble methods are used to minimize this effect snf improve feature set stability.
+Filter methods are known to select features based on their rank. They order features based on their relevance index and then select the features with the highest ranks. They do not improve the performance of the predictive model. Some of the filter-based methods are correlation coefficient\(assess the degree of dependence of input variables with the target variables\), statistics methods like T-test, F-test, Chi-Squared. Wrappers also use rank-based approach, they select the features according to their predictive power based on their score using some learning algorithm. Embedded methods select features in the process of training. Embedded methods and wrappers may yield very different feature subsets under small perturbations of the dataset. Ensemble methods are used to minimize this effect and improve feature set stability.
 

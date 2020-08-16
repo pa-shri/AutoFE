@@ -2,7 +2,7 @@
 
 When the data is not linearly separable, it is preferable to increase the dimensionality of the data.
 
-![](../.gitbook/assets/screen-shot-2020-08-15-at-5.20.58-pm.png)
+![Fig2.3](../.gitbook/assets/screen-shot-2020-08-15-at-5.20.58-pm.png)
 
 For instance, SVM is quite intuitive when the data is linearly separable. However, when it is not, SVM is extended to perform well. The first step to the nonlinear generalization of SVM is, the transformation of original training data into higher dimensional data using non-linear mapping. The next step involves finding a linear separating hyperplane in the new space.
 

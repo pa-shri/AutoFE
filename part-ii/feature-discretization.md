@@ -2,7 +2,7 @@
 
 Some algorithms do not handle continuous data well. At such times it is better to discretize continuous data into finite discrete sets. 
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![Fig2.4: Discretization](../.gitbook/assets/image%20%2814%29.png)
 
 Approaches to discretization:
 
@@ -39,13 +39,13 @@ The width of intervals is determined by the following formula:![Image for post](
 
 where **N** is the number of bins or intervals, this parameter is something to determine experimentally—there’s no rule of thumb here.
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![Fig2.5: Equal width discretization](../.gitbook/assets/image%20%2815%29.png)
 
 **3. Equal-frequency discretization:**
 
 Equal-frequency discretization divides the scope of possible values of the variable into **N** bins, where each bin holds the **same number** \(or approximately the same number\) of observations.
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![Fig2.6: Equal frequency discretization](../.gitbook/assets/image%20%2812%29.png)
 
 **4. K-means discretization:**
 

@@ -154,3 +154,5 @@ I believe it is a great and the easiest tool to quickly generate large amount fe
 
 So, at a beginner level, it is a good tool to understand feature generation easily. To perform Feature Engineering for non-relational and unstructured data, [AutoFeat](../2.-autofeat/) can be used. AutoFeat is the only general-purpose library for automatic feature generation and selection. 
 
+For more notebooks on FeatureTools: [Github](https://github.com/pa-shri/featuretools)
+

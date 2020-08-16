@@ -4,7 +4,7 @@ description: Automated FE for relational data
 
 # 1. FeatureTools
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![Fig4.1: Featuretools](../../.gitbook/assets/image%20%2817%29.png)
 
 
 
