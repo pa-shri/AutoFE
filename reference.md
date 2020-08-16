@@ -14,6 +14,10 @@
 
 **\[3\]** [**https://towardsdatascience.com/automated-feature-engineering-in-python-99baf11cc219**](https://towardsdatascience.com/automated-feature-engineering-in-python-99baf11cc219)
 
+{% embed url="https://towardsdatascience.com/chi-square-test-for-feature-selection-in-machine-learning-206b1f0b8223\#:~:text=A%20chi%2Dsquare%20test%20is,O%20and%20expected%20count%20E.&text=So%20high%20Chi%2DSquare%20value,hypothesis%20of%20independence%20is%20incorrect." %}
+
+\*\*\*\*[**https://rapidminer.com/blog/multi-objective-feature-selection-part-1/**](https://rapidminer.com/blog/multi-objective-feature-selection-part-1/)\*\*\*\*
+
 **\[4\] J. M. Kanter and K. Veeramachaneni, "Deep feature synthesis: Towards automating data science endeavors," 2015 IEEE International Conference on Data Science and Advanced Analytics \(DSAA\), Paris, 2015, pp. 1-10, doi: 10.1109/DSAA.2015.7344858.**
 
 **\[5\] Christ, M., Braun, N., Neuffer, J. and Kempa-Liehr, A. W. \(2018\), ‘Time Series FeatuRe Extraction on basis of Scalable Hypothesis tests \(tsfresh a Python package\)’, Neurocomputing 307, 72 – 77.**
